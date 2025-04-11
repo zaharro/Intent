@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="happyBirthday_text_size">15sp</dimen>
+    <dimen name="name_size">20sp</dimen>
+    <dimen name="age_size_second">30sp</dimen>
+    <dimen name="years_text_size">15sp</dimen>
+</resources>

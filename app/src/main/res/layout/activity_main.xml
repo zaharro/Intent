@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 2. Создать приложение с 2-мя экранами, где на первом экране пользователь вводит имя и возраст
+  в два поля EditText (можно использовать CalendarView), нажимает на кнопку -> переходит на второй экран,
+   где стоит открытка картинкой + надпись “ С днем рождения, _имя_” +  выводится возраст -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="17"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:hint="@string/enterName"
+        android:inputType="textCapWords"
+        android:textSize="@dimen/enterName_size" />
+
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:textSize="@dimen/age_size" />
+
+    <Button
+        android:id="@+id/sendInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:background="#751032"
+        android:onClick="onClick"
+        android:text="@string/enterButton"
+        android:textSize="@dimen/enter_size" />
+
+</LinearLayout>
+
+

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="enterName">Введите имя</string>
+    <string name="age">Введите возраст</string>
+    <string name="enterButton">Перейти к поздравлениям</string>
+    <string name="happyBirthday_text">С днем рождения,</string>
+    <string name="years_text_size">лет</string>
+</resources>
